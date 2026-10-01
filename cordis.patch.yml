@@ -1,0 +1,3 @@
+- insert:
+    - id: next-prompt
+      name: dsh-next-prompt
