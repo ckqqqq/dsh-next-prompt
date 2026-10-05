@@ -14,28 +14,43 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./package.json": "./package.json",
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "default": "./dist/client.js"
+    },
     "./engine": {
       "types": "./dist/engine.d.ts",
       "default": "./dist/engine.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
     "cordis.patch.yml",
     "README.md",
+    "docs/design.md",
     "LICENSE"
   ],
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-connection"
+      ],
+      "platform": "web"
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node scripts/build.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
-    "check": "npm run typecheck && npm test && npm run build"
+    "check": "npm run typecheck && npm test && npm run build",
+    "prepack": "npm run build"
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "~4.0.4",
