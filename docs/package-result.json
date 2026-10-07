@@ -1,0 +1,121 @@
+[
+  {
+    "id": "dsh-next-prompt@0.1.0",
+    "name": "dsh-next-prompt",
+    "version": "0.1.0",
+    "size": 39437,
+    "unpackedSize": 143939,
+    "shasum": "d16539b6cbfe8c2923b9812083d58de7e333551d",
+    "integrity": "sha512-o/U53p65DRaPAUFNkl/K/1dGG+WvnoZPuitlmAP0TibF857dyyTiWco8H2RO18LfbJPlLazncipb72nz5uJ54w==",
+    "filename": "dsh-next-prompt-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1085,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 5919,
+        "mode": 420
+      },
+      {
+        "path": "cordis.patch.yml",
+        "size": 60,
+        "mode": 420
+      },
+      {
+        "path": "dist/client.d.ts",
+        "size": 232,
+        "mode": 420
+      },
+      {
+        "path": "dist/client.js",
+        "size": 28808,
+        "mode": 420
+      },
+      {
+        "path": "dist/client.js.map",
+        "size": 53749,
+        "mode": 420
+      },
+      {
+        "path": "dist/engine.d.ts",
+        "size": 1528,
+        "mode": 420
+      },
+      {
+        "path": "dist/engine.js",
+        "size": 4753,
+        "mode": 420
+      },
+      {
+        "path": "dist/engine.js.map",
+        "size": 9523,
+        "mode": 420
+      },
+      {
+        "path": "dist/generation.d.ts",
+        "size": 1355,
+        "mode": 420
+      },
+      {
+        "path": "dist/Ghost.d.ts",
+        "size": 518,
+        "mode": 420
+      },
+      {
+        "path": "dist/host.d.ts",
+        "size": 379,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 164,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 6611,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js.map",
+        "size": 19592,
+        "mode": 420
+      },
+      {
+        "path": "dist/learning.d.ts",
+        "size": 612,
+        "mode": 420
+      },
+      {
+        "path": "dist/runtime.d.ts",
+        "size": 1764,
+        "mode": 420
+      },
+      {
+        "path": "dist/storage.d.ts",
+        "size": 692,
+        "mode": 420
+      },
+      {
+        "path": "dist/Suggestion.d.ts",
+        "size": 441,
+        "mode": 420
+      },
+      {
+        "path": "docs/design.md",
+        "size": 3958,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2196,
+        "mode": 420
+      }
+    ],
+    "entryCount": 21,
+    "bundled": []
+  }
+]

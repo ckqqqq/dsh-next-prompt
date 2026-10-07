@@ -1,0 +1,9 @@
+{
+  "runtime": "DSH 0.2.0-rc.2",
+  "isolatedHome": ".smoke-home",
+  "composedPlugin": true,
+  "httpStatus": 200,
+  "clientRoster": true,
+  "clientModuleStatus": 200,
+  "note": "Host startup and client roster only; DOM interaction is covered by jsdom tests, not a desktop end-to-end run."
+}
